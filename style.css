@@ -1,0 +1,39 @@
+header {
+  border: 3px solid black;
+  background-color: rgb(175, 226, 228);
+  text-align: center;
+  position: relative;
+  height: 200px;
+}
+
+header img {
+  border: 3px solid black;
+  height: 100px;
+  vertical-align: bottom;
+  margin-top: 10px;
+}
+
+body {
+  background-color: bisque;
+}
+
+footer {
+  border: 3px solid black;
+  background-color: rgb(65, 60, 60);
+  height: relative;
+  color: white;
+  text-align: center;
+  vertical-align: center;
+  margin-top: 10px;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer p {
+  color: white;
+  font-style: italic;
+  font-style: bold;
+  margin: 5px;
+}
