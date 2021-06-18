@@ -11,6 +11,8 @@ salesTableElem.appendChild(tbodyElem);
 let tfootElem = document.createElement('tfoot');
 salesTableElem.appendChild(tfootElem);
 
+let locationFormElement = document.getElementById('addLocationForm');
+
 let seattle =  new Store('Seattle', 23, 65, 6.3);
 let tokyo = new Store('Tokyo', 3, 24, 1.2);
 let dubai = new Store('Dubai', 11, 38, 3.7);
@@ -114,6 +116,30 @@ function renderFooter() {
   let grandThElem = document.createElement('th');
   grandThElem.textContent = grandTotal;
   rowElem.appendChild(grandThElem);
+}
+
+// create an event handler for the add a store form -------------------------------------
+function  handleSubmit(event) {
+  event.preventDefault();
+  
+  console.log(event.target.location.value, 'event target name');
+
+  let location = event.target.location.value;
+  let minCustomer = event.target.minCustomer.value;
+  let maxCustomer = event.target.maxCustomer.value;
+  let avgCookieSales = event.target.avgCookieSales.value;
+
+  console.log(location, minCustomer, maxCustomer, avgCookieSales);
+
+  let newStore = newStore(location, minCustomer, maxCustomer, avgCookieSales);
+
+  console.log(newStore);
+
+  newStore.custPerHour();
+  //this line is incorrect. need help!
+  newStore.renderStore();
+
+  event.target.reset();
 }
 
 // call the functions --------------------------------------------------------------------

@@ -115,6 +115,20 @@ li {
   text-align: center;
 }
 
+#addLocationForm {
+  background-color: whitesmoke;
+  display: inline-flex;
+  border: 2px solid black;
+}
+
+#addLocationForm input {
+  margin-bottom: 7px;
+}
+
+#formTitle {
+  text-align: left;
+}
+
 footer li {
   list-style-type: none;
   display: inline-block;
