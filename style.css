@@ -5,25 +5,42 @@ header {
   position: relative;
   height: 200px;
 }
-
-header img {
-  border: 3px solid black;
-  height: 100px;
-  vertical-align: bottom;
-  margin-top: 10px;
+h2 {
+  text-align: center;
 }
-table {
+header img {
+  height: 100px;
+  margin-top: auto;
+  margin-bottom: 5px;
+  float: center;
+}
+
+#salesInfo {
   border: 1px solid black;
-  background-color: black;
   position: relative;
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
+  display: inline-block;
 }
 
-table td {
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(10, 5, 31);
+}
+
+td {
   border: 1px solid black;
-  background-color: blue;
+  background-color: rgb(228, 228, 230);
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+th {
+  border: 1px solid black;
+  background-color: rgb(139, 139, 139);
   color: black;
   text-align: center;
   padding: 10px;
@@ -39,18 +56,29 @@ body {
   background-color: bisque;
 }
 
-footer {
+tfoot {
   border: 3px solid black;
-  background-color: rgb(65, 60, 60);
+  background-color: rgb(255, 255, 255);
   height: relative;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   vertical-align: center;
   margin-top: 10px;
 }
 
+footer {
+  background-color: black;
+  text-align: center;
+  height: 100px;
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 footer li {
   list-style-type: none;
+  display: inline-block;
+  color: whitesmoke;
+  margin-top: 20px;
 }
 
 footer p {
