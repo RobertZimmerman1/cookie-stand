@@ -1,10 +1,13 @@
 header {
   border: 3px solid black;
+  background: url(https://lh3.googleusercontent.com/wFM8GWTYu0ZHiXFI2NLMPydtLkW7cRDNgv3xsk3ooZICh302rffAM1Inh2RJ1KZ5YOgCffyuvrgIO51xSHTlAC2a4kr63Q7fPS9LeOy7RjKwN4KPi83hRGTBIc7Jxzi96nQjcRHWgSf-rNhTJUhn1yM9nATcZJPfxRNy0px8_65YMVU--gbiWmjaDzsfIDPUxoK5qn5SGouGITUn9pseHdtWe9pqSMSCrPyX7B9JNISk4zGtLuDVNtW-RnSpohBXoNENxgQSk8LZP5C6BQ1zkqSboEr0u8fEtmuwJK7T59UsuA8HSVXQxgeGevJDuC1F-IMzeHj7MKRp-Z-Mq_CaUVHWfKCsNZ4vrcupp2Gxy9VrSdXKxz1-B-MK1cokCulDu78QpBBZQ9Q-nLQgJm5Gvnsu9In_DHIOQXxZo3LYcytAJhCPuuOgDuMvYx5DUQ0Ua93JzbskS7WK0w9EEC9CwRBc6LWtNy_KoMFmh8Ap_ZhcBubONfYtHyPflGWfQZh_O3dv5dglrQ6cD7Lr1JuiGsr458Zkyf4RFM1uVmfPDhQDZ3i7E6QMAB4Zz3dIR7InOhzgv_aKd_iyHFYor50j1SZ-yeeW3maMwGQyjSNpUQfzFgvmFiqptfSJAYW-YTUpekq9ubQLc_IDXInj4dl2byEGSdJE1ZcgO9zxkC8rAHnJ7x8A7c8XLTnTelh__D6ZmU9TxP-nFeVmdSi05V4dWqXD=w1920-h307-no?authuser=0)
+    100% 100% no-repeat;
   background-color: rgb(175, 226, 228);
   text-align: center;
   position: relative;
   height: 200px;
 }
+
 h2 {
   text-align: center;
 }
@@ -13,6 +16,27 @@ header img {
   margin-top: auto;
   margin-bottom: 5px;
   float: center;
+}
+
+.bodyimage {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  box-shadow: 15px 15px 15px rgb(158, 158, 158);
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+#swagsection {
+  text-align: center;
+}
+
+.swag {
+  height: 300px;
+  border: 3px solid black;
+  margin-left: 30px;
+  box-shadow: 15px 15px 15px rgb(158, 158, 158);
+  border-radius: 10px;
 }
 
 #salesInfo {
@@ -27,6 +51,14 @@ header img {
 p {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: rgb(10, 5, 31);
+}
+
+button {
+  float: left;
+  font-size: 1.5em;
+  margin-top: 35px;
+  background-color: rgb(123, 214, 214);
+  color: black;
 }
 
 td {
@@ -72,6 +104,15 @@ footer {
   height: 100px;
   margin-top: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 35px;
+}
+
+li {
+  list-style-type: none;
+  font-size: 1.4em;
+  color: black;
+  margin-top: 20px;
+  text-align: center;
 }
 
 footer li {
